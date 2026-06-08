@@ -40,20 +40,20 @@ IntelliGit es un agente de IA personal que se ejecuta localmente y puede conecta
 
 #### Windows
 
-# Descargar desde la página oficial
+#### Descargar desde la página oficial
 https://ollama.com/download
 
-# Ejecutar el instalador .exe
+Ejecutar el instalador .exe
 
 ### 2. Instalar modelo
 
-# Modelo pequeño (4GB RAM) - Recomendado para empezar
+##### Modelo pequeño (4GB RAM) - Recomendado para empezar
 ollama pull deepseek-coder:1.3b
 
-# Modelo balanceado (8GB RAM) - Ideal para desarrollo
+##### Modelo balanceado (8GB RAM) - Ideal para desarrollo
 ollama pull deepseek-coder:6.7b
 
-# Modelo completo (16GB+ RAM) - Máxima calidad
+##### Modelo completo (16GB+ RAM) - Máxima calidad
 ollama pull deepseek-coder:33b
 
 ### 3. Clonar proyecto
@@ -77,5 +77,5 @@ MODEL_NAME=deepseek-coder:6.7b
 ollama list
 
 ### 8. Ejecutar api de flask
-# Desde la raíz del proyecto
+##### Desde la raíz del proyecto
 python src/app.py
